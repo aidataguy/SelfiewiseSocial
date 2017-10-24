@@ -81,7 +81,7 @@
         </nav>
 
         @yield('content')
-        <notification :id="{{ Auth::id() }}"></notification>   
+        <notification :id="'{{ Auth::id() }}'"></notification>
     </div>
 
     <!-- Scripts -->
